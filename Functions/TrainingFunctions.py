@@ -21,8 +21,8 @@ def all_in_one(model, train_dataloader, validation_data, epochs, steps_per_epoch
                         epochs = 100, 
                         validation_data = validation_data, 
                         validation_batch_size= 32,
-                        callbacks = [early_stopping]
-                        )
+                        callbacks = [early_stopping],
+                        verbose = 0)
     loss = history.history['loss']
     val_loss = history.history['val_loss']
     min_train_loss = np.amin(loss)
