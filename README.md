@@ -8,8 +8,3 @@ The aim of this project is to effectively perform image colorization (i.e. addin
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
-
-* [![TensorFlow][TensorFlow.icon]][TensorFlow.url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
